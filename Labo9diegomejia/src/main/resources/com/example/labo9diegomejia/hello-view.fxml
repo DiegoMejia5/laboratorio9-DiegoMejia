@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.labo9diegomejia.HelloController">
+
+  <children>
+
+    <HBox spacing="10">
+
+      <VBox spacing="5">
+        <Label text="Turno(s):"/>
+        <CheckBox fx:id="matutinoCheckBox" text="Matutino"/>
+        <CheckBox fx:id="vespertinoCheckBox" text="Vespertino"/>
+        <CheckBox fx:id="nocturnoCheckBox" text="Nocturno"/>
+      </VBox>
+
+      <VBox spacing="5">
+        <Label text="Ciudad(es):"/>
+        <CheckBox fx:id="SanSalvadorCheckBox" text="San Salvador"/>
+        <CheckBox fx:id="SantaAnaCheckBox" text="Santa Ana"/>
+        <CheckBox fx:id="SanMiguelCheckBox" text="San Miguel"/>
+      </VBox>
+
+    </HBox>
+
+    <VBox spacing="10">
+      <TextField fx:id="turnosTextField" editable="false"/>
+      <TextField fx:id="ciudadTextField" editable="false"/>
+    </VBox>
+
+  </children>
+
+</VBox>
